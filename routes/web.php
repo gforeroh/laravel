@@ -18,3 +18,4 @@ Route::get('/', function () {
 Route::resource('monedas', 'CbCurrencyController');
 Route::resource('discussion', 'DiscussionController');
 Route::resource('cars', 'CarController');
+Route::resource('crud', 'CRUDController');
