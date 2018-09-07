@@ -4,6 +4,7 @@
 @section('content')
   <div class="container">
     <a href="{{action('CRUDController@create')}}" class="btn btn-primary">Nuevo</a>
+    <br><br>
     <table class="table table-striped">
     <thead>
       <tr>
